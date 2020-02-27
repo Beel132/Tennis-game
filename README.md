@@ -4,7 +4,7 @@ it's the famous _tennis game_ :)
 
 ### how to play
 
-you just move the mouse, and the left-bar will follow it.
+You just move the mouse, and the left-white-bar will follow it.
 
 ### goal
 
