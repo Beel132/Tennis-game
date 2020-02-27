@@ -1,12 +1,12 @@
-# Tennis-game
+# Tennis-game (2020)
 
 it's the famous _tennis game_ :)
 
-## how to play
+### how to play
 
 you just move the mouse, and the left-bar will follow it.
 
-## goal
+### goal
 
 the goal is to make your opponent lose!
 
