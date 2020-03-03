@@ -12,6 +12,7 @@ var SbarY = 250;
 
 const _barHeight = 100;
 const _barThick = 10;
+canvas = document.getElementById(`canvas`);
 
 // placar
 
@@ -50,7 +51,6 @@ window.onload = () => {
 
     fps = 60;
 
-    canvas = document.getElementById(`canvas`);
     canvasCTX = canvas.getContext(`2d`);
 
     yourScore = document.getElementById(`you`);
@@ -69,7 +69,7 @@ window.onload = () => {
     setInterval(() => {
         move();
         drawer();
-    }, 2000 / fps);
+    }, 500 / fps);
 
     canvas.addEventListener('mousemove', function (e) {
         var mPos = mousePos(e);
@@ -165,7 +165,7 @@ resetBola = () => {
 
     velocidadeBolinhaX = -velocidadeBolinhaX;
     bolinhaX = canvas.width / 2;
-    bolinhaY = canvas.height / 2;
+    bolinhaY = canvas.height / (Math.random() * 20);
 
     yourScore.innerHTML = 0;
     yourScoreN = 1;
